@@ -1,5 +1,5 @@
 ﻿
-Partial Class Account_ChangePassword
+Partial Class Empresa
     Inherits System.Web.UI.Page
 
 End Class

@@ -4,48 +4,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <title>FullSystem.com</title>
+    <link href="~/css/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap.css" rel="stylesheet"  />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form runat="server">
     <div class="page">
-        <div class="header">
-            <div class="title">
-                <h1>
-                    Mi aplicación ASP.NET
-                </h1>
+        <div>
+            <div style="background-color:Black">
+                <asp:Image ID="img_Logo" runat="server" ImageUrl="~/img/Logo.png" Width="400" Height="120" />
             </div>
-            <div class="loginDisplay">
-                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a> ]
-                    </AnonymousTemplate>
-                    <LoggedInTemplate>
-                        Pantalla de bienvenida <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/"/> ]
-                    </LoggedInTemplate>
-                </asp:LoginView>
-            </div>
-            <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Página principal"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de"/>
-                    </Items>
-                </asp:Menu>
+            <div class="navbar navbar-inverse">
+                <div class="navbar-inner">
+                    <ul class="nav">
+                        <li id="li_Inicio" runat="server" class="active"><asp:hyperlink ID="hl_Inicio" runat="server" NavigateUrl="~/Default.aspx">Inicio</asp:hyperlink></li>
+                        <li id="li_Empresa" runat="server"><asp:hyperlink ID="hl_Empresa" runat="server" NavigateUrl="~/Empresa.aspx">Empresa</asp:hyperlink></li>
+                        <li id="li_Servicios" runat="server"><asp:hyperlink ID="hl_Servicios" runat="server" NavigateUrl="~/Servicios.aspx">Servicios</asp:hyperlink></li>
+                        <li id="li_Soluciones" runat="server"><asp:hyperlink ID="hl_Soluciones" runat="server" NavigateUrl="#">Soluciones</asp:hyperlink></li>
+                        <li id="li_Capacitacion" runat="server"><asp:hyperlink ID="hl_Capacitacion" runat="server" NavigateUrl="#">Capacitación</asp:hyperlink></li>
+                        <li id="li_Contacto" runat="server"><asp:hyperlink ID="hl_Contacto" runat="server" NavigateUrl="#">Contacto</asp:hyperlink></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
         </div>
-        <div class="clear">
-        </div>
-    </div>
-    <div class="footer">
-        
     </div>
     </form>
 </body>
