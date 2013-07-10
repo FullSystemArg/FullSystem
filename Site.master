@@ -15,7 +15,6 @@
     <div class="page">
         <div>
             <div style="background-color:Black">
-                <asp:Image ID="img_Logo" runat="server" ImageUrl="~/img/Logo.png" Width="400" Height="120" />
             </div>
             <div class="navbar navbar-inverse">
                 <div class="navbar-inner">
