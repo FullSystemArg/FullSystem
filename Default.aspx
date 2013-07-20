@@ -5,6 +5,6 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Full System SRL
+        <center>Contenido de HOME</center>
     </h2>
 </asp:Content>

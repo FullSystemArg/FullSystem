@@ -726,6 +726,7 @@ a.text-success:focus {
 
 .text-right {
   text-align: right;
+    height: 29px;
 }
 
 .text-center {
