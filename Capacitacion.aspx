@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
    
     <div class="badge badge-info" style="text-align:center">
-    Tomamos la capacitación como un tema primordial en el proceso de desarrollo de aplicaciones Web y de escritorio, brindamos sistemas de ayuda en todos <br /> nuestros proyectos 
+    mamos la capacitación como un tema primordial en el proceso de desarrollo de aplicaciones Web y de escritorio, brindamos sistemas de ayuda en todos <br /> nuestros proyectos 
     y además ofrecemos capacitación a distancia en las diversas herramientas de programación. Todos nuestros cursos sirven para conseguir<br /> una rápida salida laboral ya que 
     están orientados a grupos de trabajo reales con herramientas de ultima generación y con los métodos mas utilizados<br /> en el mercado en la actualidad, se perfeccionan además 
     en cada uno, el trabajo en equipo, y los ejemplos prácticos para el aprendizaje, creando así<br /> un equilibrio entre el conocimiento teórico y el conocimiento practico.
