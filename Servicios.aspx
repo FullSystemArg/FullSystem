@@ -39,6 +39,12 @@
             <td style="vertical-align:middle;text-align:center">Desarrollos de software para clínicas y consultorios donde consultar agenda medica, historia clínica electronica 
             y agilizar la gestion medica de los pacientes</td>
         </tr>
+        <tr>
+            <td style="vertical-align:middle;text-align:center"><asp:Image ID="image3" runat="server" ImageUrl="~/img/Servicios/2.jpg" /></td>
+            <td style="vertical-align:middle;text-align:center">Gestion de pacientes</td>
+            <td style="vertical-align:middle;text-align:center">Desarrollos de software para clínicas y consultorios donde consultar agenda medica, historia clínica electronica 
+            y agilizar la gestion medica de los pacientes</td>
+        </tr>
     </table>
 
 </asp:Content>
