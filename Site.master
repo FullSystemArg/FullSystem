@@ -5,8 +5,14 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Full System S.R.L</title>
-    <link href="~/css/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/css/bootstrap.css" rel="stylesheet"  />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/Site.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome-ie7.css" rel="stylesheet" />
+    <script src="http://intranet.consultorespediatricos.com/js/modal.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -15,7 +21,7 @@
         <div class="page">
             <div style="background-color:Black">
                 <div class="span12">
-                    <div><asp:Image ID="img_Logo" ImageAlign="Left" ImageUrl="~/img/Logo - copia.png" runat="server" /></div>
+                    <div><asp:Image ID="img_Logo" ImageAlign="Left" ImageUrl="~/img/Logo.gif" runat="server" /></div>
                     <div class="text-right" style="color:Gray">
                         <div style="height:30px"></div>
                         <asp:HyperLink ID="hl_Español" ForeColor="Gray" NavigateUrl="~/Default.aspx" Font-Size="Small" runat="server">Español</asp:HyperLink>
@@ -29,14 +35,23 @@
                             <li class='<%=EsDefault() %>'><asp:hyperlink ID="hl_Inicio" runat="server" NavigateUrl="~/Default.aspx">Inicio</asp:hyperlink></li>
                             <li class='<%=EsEmpresa() %>'><asp:hyperlink ID="hl_Empresa" runat="server" NavigateUrl="~/Empresa.aspx">Empresa</asp:hyperlink></li>
                             <li class='<%=EsServicios() %>'><asp:hyperlink ID="hl_Servicios" runat="server" NavigateUrl="~/Servicios.aspx">Servicios</asp:hyperlink></li>
+                            <li class='<%=EsSoluciones() %>'><asp:hyperlink ID="hl_Soluciones" runat="server" NavigateUrl="~/Soluciones.aspx">Soluciones</asp:hyperlink></li>
+                            <li class='<%=EsClientes() %>'><asp:hyperlink ID="hl_Clientes" runat="server" NavigateUrl="~/Clientes.aspx">Clientes</asp:hyperlink></li>
                             <li class='<%=EsCapacitacion() %>'><asp:hyperlink ID="hl_Capacitacion" runat="server" NavigateUrl="~/Capacitacion.aspx">Capacitación</asp:hyperlink></li>
                             <li class='<%=EsContacto() %>'><asp:hyperlink ID="hl_Contacto" runat="server" NavigateUrl="~/Contacto.aspx">Contacto</asp:hyperlink></li>
                         </ul>
                     </div>
                 </div>
             </div>
+
             <div class="main">
-                <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footer">
+                <asp:Image ID="img_Logo2" CssClass="btn btn-inverse" ImageAlign="Left" ImageUrl="~/img/Full copia.gif" runat="server" />
+                <asp:Image ID="img_RRHH" Width="354px" Height="61px" CssClass="btn btn-inverse"  ImageAlign="Left" runat="server" />
+                <asp:Image ID="img_Eco" CssClass="btn btn-inverse" ImageAlign="right" ImageUrl="~/img/eco.gif" runat="server" />
             </div>
         </div>
     </form>

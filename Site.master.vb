@@ -28,5 +28,13 @@ Partial Class Site
         Return IIf(InStr(LCase(Request.Url.ToString), "/contacto.aspx") > 0, "active", "")
     End Function
 
+    Function EsClientes() As String
+        Return IIf(InStr(LCase(Request.Url.ToString), "/clientes.aspx") > 0, "active", "")
+    End Function
+
+    Function EsSoluciones() As String
+        Return IIf(InStr(LCase(Request.Url.ToString), "/soluciones.aspx") > 0, "active", "")
+    End Function
+
 End Class
 
