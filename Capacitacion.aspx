@@ -108,10 +108,5 @@
             </div>
         </div>
     </div>
-    <script>
-        $('btn_DCurso1').click(function () {
-            $('#myModal').modal('show');
-        });
-    </script>
 </asp:Content>
 
