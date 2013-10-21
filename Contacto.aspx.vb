@@ -12,6 +12,6 @@ Partial Class Contacto
 
 
     Protected Sub img_Linkedin_Click(ByVal sender As Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles img_Linkedin.Click
-        Response.Redirect("#")
+        Response.Redirect("")
     End Sub
 End Class
