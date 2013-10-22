@@ -5,13 +5,15 @@
     <script src="js/jquery-1.7.1.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-   
+    <h1>Cursos</h1>
+    <hr />
     <div class="badge badge-info" style="text-align:center">
-    mamos la capacitación como un tema primordial en el proceso de desarrollo de aplicaciones Web y de escritorio, brindamos sistemas de ayuda en todos <br /> nuestros proyectos 
-    y además ofrecemos capacitación a distancia en las diversas herramientas de programación. Todos nuestros cursos sirven para conseguir<br /> una rápida salida laboral ya que 
-    están orientados a grupos de trabajo reales con herramientas de ultima generación y con los métodos mas utilizados<br /> en el mercado en la actualidad, se perfeccionan además 
-    en cada uno, el trabajo en equipo, y los ejemplos prácticos para el aprendizaje, creando así<br /> un equilibrio entre el conocimiento teórico y el conocimiento practico.
-    Además nuestros cursos ofrecen una gran variedad de conocimientos que se<br /> obtendrán de forma practica, son muy ricos en contenido pero además son sumamente económicos.
+    Para nosotros la capacitación de nuestros recursos humanos es un elemento primordial para el desarrollo de una empresa, es por eso que ofrecemos cursos <br />
+    especificos de corta duración pero con importantes cantidades de contenidos para los recursos humanos de su empresa. En los tiempos que corren es impresindible <br />
+    estar alerta a  los cambios y trabajar sobre las nuevas tecnologias, Full System toma esto como desafio y colaborá con sus clientes para un desarrollo mutuo  <br />
+    y un crecimiento sustentable.
+    
+
     </div>
     <hr />
     <table class="table table-bordered">
@@ -21,7 +23,7 @@
             <th style="text-align:center">Curso</th>
             <th style="text-align:center">Duración</th>
             <th style="text-align:center">Nivel</th>
-            <th style="text-align:center"></th>
+            <th style="text-align:center"><asp:linkbutton ID="btn_Consultas" runat="server" CssClass="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="icon-info-sign"></i> Consultas</asp:linkbutton></th>
         </tr>
         <tr>
             <td style="vertical-align:middle;text-align:center"><asp:Image ID="image1" runat="server" ImageUrl="~/img/asp.net_.png" /></td>
@@ -31,8 +33,6 @@
             <td style="vertical-align:middle;text-align:center">Básico</td>
             <td style="text-align:center;vertical-align:middle">
                 <div><asp:linkbutton ID="btn_DCurso1" runat="server" data-toggle="modal" CssClass="btn btn-success"><i class="icon-pencil"></i> Detalles</asp:linkbutton></div>
-                <br />
-                <div><asp:linkbutton ID="btn_Curso1" runat="server" CssClass="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="icon-shopping-cart"></i> Contactar</asp:linkbutton></div>
             </td>
         </tr>
         <tr>
@@ -43,8 +43,6 @@
             <td style="vertical-align:middle;text-align:center">Avanzado</td>
             <td style="text-align:center;vertical-align:middle">
                 <div><asp:linkbutton ID="btn_Dcurso2" runat="server" data-toggle="modal" data-target="#myModal1" CssClass="btn btn-success"><i class="icon-pencil"></i> Detalles</asp:linkbutton></div>
-                <br />
-                <div><asp:linkbutton ID="btn_Curso2" runat="server" data-toggle="modal" data-target="#myModal" CssClass="btn btn-primary"><i class="icon-shopping-cart"></i> Contactar</asp:linkbutton></div>
             </td>
         </tr>
         <tr>
@@ -55,8 +53,6 @@
             <td style="vertical-align:middle;text-align:center">Básico</td>
             <td style="text-align:center;vertical-align:middle">
                 <div><asp:linkbutton ID="btn_Dcurso3" runat="server" data-toggle="modal" data-target="#myModal1" CssClass="btn btn-success"><i class="icon-pencil"></i> Detalles</asp:linkbutton></div>
-                <br />
-                <div><asp:linkbutton ID="btn_Curso3" runat="server" CssClass="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="icon-shopping-cart"></i> Contactar</asp:linkbutton></div>
             </td>
         </tr>
         <tr>
@@ -67,8 +63,6 @@
             <td style="vertical-align:middle;text-align:center">Básico</td>
             <td style="text-align:center;vertical-align:middle">
                 <div><asp:linkbutton ID="btn_Dcurso4" runat="server" data-toggle="modal" data-target="#myModal1" CssClass="btn btn-success"><i class="icon-pencil"></i> Detalles</asp:linkbutton></div>
-                <br />
-                <div><asp:linkbutton ID="btn_Curso4" data-toggle="modal" data-target="#myModal" runat="server" CssClass="btn btn-primary"><i class="icon-shopping-cart"></i> Contactar</asp:linkbutton></div>
             </td>
         </tr>
     </table>

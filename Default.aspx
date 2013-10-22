@@ -15,6 +15,7 @@
             <img src="img/Slyder/4.jpg" alt="PDF Slice, combina sus PDF y TXT de la forma que usted le indique" />
             <img src="img/Slyder/5.jpg" alt="Gestion Para Pymes, Compras, Ventas, Stock…" />
             <img src="img/Slyder/6.jpg" />
+            <img src="img/Slyder/7.jpg" />
         </div>
     </div>
     <br /><p>
