@@ -20,7 +20,7 @@
     </div>
     <br /><p>
     <br /><p>
-    <div>
+    <div class="alert alert-success">
         En <span class="label label-important">Full System</span> trabajamos para estar siempre a la vanguardia en las nuevas tecnologías, proponemos una amplia gama de servicios y contamos con 
         los mejores profesionales para el desarrollo y la integración de software .NET
         Tenemos más de una década en el mercado desarrollando sistemas a medida y ofreciendo soluciones ágiles a nuestros clientes.

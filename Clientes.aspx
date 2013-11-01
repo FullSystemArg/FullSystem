@@ -25,10 +25,17 @@
             <td style="text-align:center"><asp:image ID="image8" runat="server" ImageUrl="~/img/Clientes/Consolidar.jpg" /></td>
             <td style="text-align:center"><asp:image ID="image7" runat="server" ImageUrl="~/img/Clientes/LogoHSBCSeguros.gif" /></td>
         </tr>
+        <tr>
+            <td style="text-align:center;vertical-align:middle"><asp:image ID="image9" runat="server" ImageUrl="~/img/Clientes/Fiat.jpg" /></td>
+            <td style="text-align:center;vertical-align:middle"><asp:image ID="image10" runat="server" ImageUrl="~/img/Clientes/Gire.jpg" /></td>
+            <td style="text-align:center;vertical-align:middle"><asp:image ID="image12" runat="server" ImageUrl="~/img/Clientes/uar.jpg" /></td>
+            <td style="text-align:center;vertical-align:middle"><asp:image ID="image11" runat="server" ImageUrl="~/img/Clientes/qbe.png" /></td>
+        </tr>
     </table>
     <hr />
-    <div style="text-align:center"><b>Descargar Cv Empresarial</b></div>
+    <div style="text-align:center"><b>Solicitar Cv Empresarial</b></div>
     <br />
     <div style="text-align:center"><asp:LinkButton ID="btn_CV" runat="server" CssClass="btn btn-large"><i class="icon-download"></i> Cv Empresarial</asp:LinkButton></div>
+    <br />
 </asp:Content>
 

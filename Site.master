@@ -5,7 +5,12 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Full System S.R.L</title>
+    <meta name="description" content="Full System SRL">
+    <meta name="keywords" content="Full,FullSystem,NET,Sistemas a medida,Diseño Web">
+    <meta name="author" content="FullSystem">
+    <meta charset="UTF-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/panels-bootstrap-layouts-admin.css" rel="stylesheet" type="text/css" />
     <link href="css/Site.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.css" rel="stylesheet" />
     <link href="css/font-awesome-ie7.css" rel="stylesheet" />
@@ -49,9 +54,13 @@
                 </asp:ContentPlaceHolder>
             </div>
             <div class="footer">
+                <div class="btn-group btn-group-justified">
                 <asp:Image ID="img_Logo2" CssClass="btn btn-inverse" ImageAlign="Left" ImageUrl="~/img/Full copia.gif" runat="server" />
-                <asp:Image ID="img_RRHH" Width="354px" Height="61px" CssClass="btn btn-inverse"  ImageAlign="Left" runat="server" />
-                <asp:Image ID="img_Eco" CssClass="btn btn-inverse" ImageAlign="right" ImageUrl="~/img/eco.gif" runat="server" />
+                <asp:Image ID="img_RRHH" Width="510px" Height="50px" CssClass="btn btn-inverse"  ImageAlign="Left" runat="server" />
+                <asp:ImageButton ID="img_Facebook" cssClass="btn btn-inverse" ImageUrl="~/img/facebook-sm.jpg" runat="server" ImageAlign="right" />
+                <asp:ImageButton ID="img_Twitter" CssClass="btn btn-inverse" ImageUrl="~/img/twitter.gif" ImageAlign="right" runat="server" />
+                <asp:ImageButton ID="img_Linkedin" CssClass="btn btn-inverse" ImageUrl="~/img/linkedin-logo.png" ImageAlign="right" runat="server" />
+                </div>
             </div>
         </div>
     </form>
