@@ -20,12 +20,12 @@
                 buscamos soluciones alternativas y agiles a los problemas que se presentan.
                 <hr />
                 <div><asp:Label ID="lbl_Vision" runat="server" CssClass="label label-success">Nuestra Visión</asp:Label></div>
-                Brindar servicios de alta calidad en tecnología para nuestros clientes, proveedores y socios estratégicos maximizando los beneficios para fomentar el 
-                crecimiento de ambas partes.
+                Cumplir con los objetivos y generar valor agregado en los proyectos que llevamos adelante, creemos en el trabajo en equipo para el cumplimiento de las metas 
+                y contamos con los mejores profesionales para brindar un servicio de excelencia.
                 <hr />
                 <div><asp:Label ID="lbl_Mision" runat="server" CssClass="label label-warning">Nuestra Misión</asp:Label></div>
-                Cumplir con los objetivos y generar valor en nuestros clientes, creemos en el trabajo en equipo para el cumplimiento de las metas y contamos con los mejores 
-                profesionales para brindar un servicio de excelencia.
+                Brindar servicios de alta calidad en tecnología para nuestros clientes, proveedores y socios estratégicos maximizando los beneficios para fomentar el 
+                crecimiento de ambas partes.
             </td>
         </tr>
     </table>

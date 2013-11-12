@@ -10,23 +10,64 @@
         <ContentTemplate>
         <h1>Servicios</h1>
         <hr />
-        <div class="alert">
+        <div>
             Ofrecemos una amplia gama de servicios desde el desarrollo de sistemas y aplicaciones Web, hasta <b>servicios de Hosting, mantenimiento y posicionamiento 
             en Internet </b>, creemos que es necesaria una correcta integración de nuestros sistemas para agregar valor a su empresa y por eso <span class="label label-important">Full System</span>
             acompaña a sus clientes en todos los procesos de implementación de nuestros sistemas.
         </div>
         <br />
         <ul class="nav nav-tabs nav-pills nav-stacked">
-            <li class="active" style="text-align:center"><asp:hyperlink ID="Hyperlink2" runat="server" text="Procesos de Implementación"></asp:hyperlink></li>
+            <li class="active" style="text-align:center"><asp:hyperlink ID="Hyperlink2" runat="server" text="Proceso de Implementación Informático"></asp:hyperlink></li>
             <li>
                 <ul class="nav nav-tabs">
-                    <li class="active"><asp:linkbutton ID="Linkbutton13" runat="server" CssClass="btn-link">Relevamiento</asp:linkbutton></li>
-                    <li class="active"><asp:linkbutton ID="Linkbutton14" runat="server" CssClass="btn-link">Análisis y Diseño Funcional</asp:linkbutton></li>
-                    <li class="active"><asp:linkbutton ID="Linkbutton15" runat="server" CssClass="btn-link">Programación y Documentación</asp:linkbutton></li>
-                    <li class="active"><asp:linkbutton ID="Linkbutton16" runat="server" CssClass="btn-link">Testeo y Control de Calidad</asp:linkbutton></li>
-                    <li class="active"><asp:linkbutton ID="Linkbutton17" runat="server" CssClass="btn-link">Implementación</asp:linkbutton></li>
-                    <li class="active"><asp:linkbutton ID="Linkbutton18" runat="server" CssClass="btn-link">Capacitación</asp:linkbutton></li>
+                    <li class='<%=Es13() %>'><asp:linkbutton ID="Linkbutton13" runat="server" CssClass="btn-link">Relevamiento</asp:linkbutton></li>
+                    <li class='<%=Es14() %>'><asp:linkbutton ID="Linkbutton14" runat="server" CssClass="btn-link">Análisis y Diseño Funcional</asp:linkbutton></li>
+                    <li class='<%=Es15() %>'><asp:linkbutton ID="Linkbutton15" runat="server" CssClass="btn-link">Programación y Documentación</asp:linkbutton></li>
+                    <li class='<%=Es16() %>'><asp:linkbutton ID="Linkbutton16" runat="server" CssClass="btn-link">Testeo y Control de Calidad</asp:linkbutton></li>
+                    <li class='<%=Es17() %>'><asp:linkbutton ID="Linkbutton17" runat="server" CssClass="btn-link">Implementación</asp:linkbutton></li>
+                    <li class='<%=Es18() %>'><asp:linkbutton ID="Linkbutton18" runat="server" CssClass="btn-link">Capacitación</asp:linkbutton></li>
                 </ul>
+            </li>
+            <li>
+                <table class="table table-bordered">
+                    <asp:Panel ID="Panel13" runat="server" Visible="true"> 
+                        <tr>
+                            <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image13" runat="server" ImageUrl="~/img/Servicios/14.jpg" /></td>
+                            <td style="vertical-align:middle;text-align:center">La primera etapa de todo análisis de sistemas es el relevamiento, en Full System le damos gran significación esta etapa ya que es aquí donde se determina la situación existente del sistema. Tenemos una estructura diseñada para agilizar este proceso que contempla la entrevista y observación personal, la concreción de las reuniones de trabajo que sean necesarias y por ultimo la redacción de informes y graficación, especificando los pros y los contras de la situación actual del sistema, ofreciendo recomendaciones para mejorarlo.</td>
+                        </tr>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel14" runat="server" Visible="false"> 
+                        <tr>
+                            <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image14" runat="server" ImageUrl="~/img/Servicios/15.jpg" /></td>
+                            <td style="vertical-align:middle;text-align:center">Si el objetivo de un programa o proyecto es conseguir una transformación beneficiosa de la empresa, es de importancia vital desarrollar una visión o diseño detallado de cual va a ser el escenario final de la organización. En esta etapa se desarrolla el BluePrint que describirá la arquitectura de la organización resultante del proceso de cambio que se ha decido emprender.
+                                Estamos muy atentos a comprender fuertemente los requerimientos del sistema y en algunos casos elaboramos un prototipo mostrando un poco la parte de interfaz del usuario.</td>
+                        </tr>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel15" runat="server" Visible="false"> 
+                        <tr>
+                            <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image15" runat="server" ImageUrl="~/img/Servicios/16.jpg" /></td>
+                            <td style="vertical-align:middle;text-align:center">En esta etapa procedemos a armar documentación interna (especificación funcional y de requerimientos) para emprender el desarrollo del sistema, teniendo clara la visión y el alcance del proyecto. Tenemos una estructura para la codificación donde respetamos nomenclaturas y formas para que el proyecto sea facil de interpretar para cualquier miembro del grupo de trabajo, al final generamos la documentación externa y el manual de usuario.</td>
+                        </tr>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel16" runat="server" Visible="false"> 
+                        <tr>
+                            <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image16" runat="server" ImageUrl="~/img/Servicios/17.jpg" /></td>
+                            <td style="vertical-align:middle;text-align:center">Relacionado con la codificación realizamos diversas pruebas para evitar cualquier tipo de error sintáctico o lógico, depuramos el algoritmo para identificar y eliminar errores que pueden generar problemas a futuro a nuestros clientes, utilizamos software para que todos los usuarios tengan la última versión del sistema evitando generar conflictos entre versiones y asegurando la actualización del mismo.</td>
+                        </tr>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel17" runat="server" Visible="false"> 
+                        <tr>
+                            <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image17" runat="server" ImageUrl="~/img/Servicios/18.jpg" /></td>
+                            <td style="vertical-align:middle;text-align:center">La implementación de un sistema informático, requiere de una robusta estructura para llevarlo adelante y de conocimientos que no siempre están presentes en todas las empresas, en Full System desarrollamos sistemas de fácil implementación, planificamos de forma anticipada los posibles conflictos de compatibilidad y es por eso que esta parte técnica la podemos sortear rapidamente.</td>
+                        </tr>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel18" runat="server" Visible="false"> 
+                        <tr>
+                            <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image18" runat="server" ImageUrl="~/img/Servicios/19.jpg" /></td>
+                            <td style="vertical-align:middle;text-align:center">Tomamos en consideración los conflictos y las propuestas de los usuarios, es por eso que además de generar didácticos manuales de usuario  y una completa capacitacion personalizada proponemos formas de aprendizaje mas interactivas como la utilización de agentes de consulta dentro de nuestros sistemas.</td>
+                        </tr>
+                    </asp:Panel>
+                </table>
             </li>
         </ul>
         <ul class="nav nav-tabs nav-pills nav-stacked">

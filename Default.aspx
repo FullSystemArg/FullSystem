@@ -12,7 +12,7 @@
             <img src="img/Slyder/1.jpg" alt="Captura de datos, Diligencia y calidad" />
             <img src="img/Slyder/2.jpg" alt="Desarrollo e integración de sistemas a la medida del cliente" />
             <img src="img/Slyder/3.jpg" alt="Desarrollamos y publicamos tu sitio Web ASP.NET" />
-            <img src="img/Slyder/4.jpg" alt="PDF Slice, combina sus PDF y TXT de la forma que usted le indique" />
+            <img src="img/Slyder/4.jpg" alt="Clasificación y digitalización de sus documentos" />
             <img src="img/Slyder/5.jpg" alt="Gestion Para Pymes, Compras, Ventas, Stock…" />
             <img src="img/Slyder/6.jpg" />
             <img src="img/Slyder/7.jpg" />

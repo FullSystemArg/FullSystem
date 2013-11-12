@@ -8,6 +8,87 @@ Partial Class Servicios
         End If
     End Sub
 
+#Region "Procesos"
+    Function Es13() As String
+        Return IIf(Panel13.Visible = True, "active", "")
+    End Function
+
+    Function Es14() As String
+        Return IIf(Panel14.Visible = True, "active", "")
+    End Function
+
+    Function Es15() As String
+        Return IIf(Panel15.Visible = True, "active", "")
+    End Function
+
+    Function Es16() As String
+        Return IIf(Panel16.Visible = True, "active", "")
+    End Function
+
+    Function Es17() As String
+        Return IIf(Panel17.Visible = True, "active", "")
+    End Function
+
+    Function Es18() As String
+        Return IIf(Panel18.Visible = True, "active", "")
+    End Function
+
+    Protected Sub Linkbutton13_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Linkbutton13.Click
+        Panel13.Visible = True
+        Panel14.Visible = False
+        Panel15.Visible = False
+        Panel16.Visible = False
+        Panel17.Visible = False
+        Panel18.Visible = False
+    End Sub
+
+    Protected Sub Linkbutton14_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Linkbutton14.Click
+        Panel13.Visible = False
+        Panel14.Visible = True
+        Panel15.Visible = False
+        Panel16.Visible = False
+        Panel17.Visible = False
+        Panel18.Visible = False
+    End Sub
+
+    Protected Sub Linkbutton15_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Linkbutton15.Click
+        Panel13.Visible = False
+        Panel14.Visible = False
+        Panel15.Visible = True
+        Panel16.Visible = False
+        Panel17.Visible = False
+        Panel18.Visible = False
+    End Sub
+
+    Protected Sub Linkbutton16_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Linkbutton16.Click
+        Panel13.Visible = False
+        Panel14.Visible = False
+        Panel15.Visible = False
+        Panel16.Visible = True
+        Panel17.Visible = False
+        Panel18.Visible = False
+    End Sub
+
+    Protected Sub Linkbutton17_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Linkbutton17.Click
+        Panel13.Visible = False
+        Panel14.Visible = False
+        Panel15.Visible = False
+        Panel16.Visible = False
+        Panel17.Visible = True
+        Panel18.Visible = False
+    End Sub
+
+    Protected Sub Linkbutton18_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Linkbutton18.Click
+        Panel13.Visible = False
+        Panel14.Visible = False
+        Panel15.Visible = False
+        Panel16.Visible = False
+        Panel17.Visible = False
+        Panel18.Visible = True
+    End Sub
+
+#End Region
+
 #Region "Sistemas a medida"
 
     Function Es1() As String

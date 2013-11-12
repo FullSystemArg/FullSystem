@@ -55,11 +55,9 @@
             </div>
             <div class="footer">
                 <div class="btn-group btn-group-justified">
-                <asp:Image ID="img_Logo2" CssClass="btn btn-inverse" ImageAlign="Left" ImageUrl="~/img/Full copia.gif" runat="server" />
-                <asp:Image ID="img_RRHH" Width="510px" Height="50px" CssClass="btn btn-inverse"  ImageAlign="Left" runat="server" />
-                <asp:ImageButton ID="img_Facebook" cssClass="btn btn-inverse" ImageUrl="~/img/facebook-sm.jpg" runat="server" ImageAlign="right" />
-                <asp:ImageButton ID="img_Twitter" CssClass="btn btn-inverse" ImageUrl="~/img/twitter.gif" ImageAlign="right" runat="server" />
-                <asp:ImageButton ID="img_Linkedin" CssClass="btn btn-inverse" ImageUrl="~/img/linkedin-logo.png" ImageAlign="right" runat="server" />
+                <asp:Imagebutton ID="img_Logo2" CssClass="btn btn-inverse" ImageAlign="Left" ImageUrl="~/img/Full.gif" runat="server" />
+                <asp:Image ID="img_RRHH" Width="330px" Height="50px" CssClass="btn btn-inverse"  ImageAlign="Left" runat="server" />
+                <asp:ImageButton ID="img_Info" cssClass="btn btn-inverse" ImageUrl="~/img/info.gif" runat="server" ImageAlign="right" />
                 </div>
             </div>
         </div>
