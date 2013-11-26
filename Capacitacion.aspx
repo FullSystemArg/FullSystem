@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Capacitacion.aspx.vb" Inherits="Capacitacion" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" MetaDescription="Capacitacion Full System de sus recursos humanos cursos en linea y presenciales" MetaKeywords="capacitacion de recursos humanos,cursos de visual basic .net,desarrollo web en visual studio 2010,full system argentina, FullSystemNet" AutoEventWireup="false" CodeFile="Capacitacion.aspx.vb" Inherits="Capacitacion" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
     <script src="js/bootstrap.min.js"></script>
@@ -7,12 +7,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
     <h1>Cursos</h1>
     <hr />
-    <div class="alert alert-success">
     Para nosotros la capacitación de nuestros recursos humanos es un elemento primordial para el desarrollo de una empresa, es por eso que ofrecemos cursos 
     especificos de corta duración pero con importantes cantidades de contenidos para los recursos humanos de su empresa. En los tiempos que corren es impresindible
     estar alerta a  los cambios y trabajar sobre las nuevas tecnologias, <span class="label label-important">Full System</span> toma esto como un desafio y colaborá con sus clientes para un desarrollo mutuo 
     y un crecimiento sustentable.
-    </div>
     <hr />
     <table class="table table-bordered">
         <tr>

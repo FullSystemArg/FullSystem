@@ -36,13 +36,7 @@ Partial Class Site
         Return IIf(InStr(LCase(Request.Url.ToString), "/soluciones.aspx") > 0, "active", "")
     End Function
 
-    Protected Sub img_Info_Click(ByVal sender As Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles img_Info.Click
-        Response.Redirect("~/Contacto.aspx")
-    End Sub
 
-    Protected Sub img_Logo2_Click(ByVal sender As Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles img_Logo2.Click
-        Response.Redirect("~/Servicios.aspx")
-    End Sub
 
 End Class
 

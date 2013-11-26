@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Empresa.aspx.vb" Inherits="Empresa" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" MetaDescription="Conosca nuestra empresa Full System SRL" MetaKeywords="fullsystem,full system,soluciones agiles,full system argentina, digitalizar pdf, FullSystemNet" AutoEventWireup="false" CodeFile="Empresa.aspx.vb" Inherits="Empresa" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

@@ -1,13 +1,10 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Servicios.aspx.vb" Inherits="Servicios" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" MetaDescription="Servicios de hosting, diseño web y sistemas a medida" MetaKeywords="Sistemas a medida,diseño de aplicaciones web,intranet gestor de contenidos webs corporativas,gestion para pymes sistemas de informacion, implementacion y relevamiento, FullSystemNet" AutoEventWireup="false" CodeFile="Servicios.aspx.vb" Inherits="Servicios" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.7.1.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-    <asp:ScriptManager ID="sm1" runat="server"></asp:ScriptManager>
-    <asp:UpdatePanel ID="up1" runat="server">
-        <ContentTemplate>
         <h1>Servicios</h1>
         <hr />
         <div>
@@ -16,8 +13,11 @@
             acompaña a sus clientes en todos los procesos de implementación de nuestros sistemas.
         </div>
         <br />
+        <asp:ScriptManager ID="sm1" runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel ID="up1" runat="server">
+        <ContentTemplate>
         <ul class="nav nav-tabs nav-pills nav-stacked">
-            <li class="active" style="text-align:center"><asp:hyperlink ID="Hyperlink2" runat="server" text="Proceso de Implementación Informático"></asp:hyperlink></li>
+            <li class="active" style="text-align:center"><asp:hyperlink ID="Hyperlink2" runat="server" text="Proceso de Implementación"></asp:hyperlink></li>
             <li>
                 <ul class="nav nav-tabs">
                     <li class='<%=Es13() %>'><asp:linkbutton ID="Linkbutton13" runat="server" CssClass="btn-link">Relevamiento</asp:linkbutton></li>
@@ -133,7 +133,6 @@
                 </table>
             </li>
         </ul>
-    
         <ul class="nav nav-tabs nav-pills nav-stacked">
             <li class="active" style="text-align:center"><asp:hyperlink ID="Hyperlink1" runat="server" text="Diseño de Sitios web"></asp:hyperlink></li>
             <li>
@@ -198,7 +197,7 @@
                                 <li>Integración con redes sociales (Facebook, Twitter, Tumblr, etc...)</li>
                                 <li>Posicionamiento Web con Google Adwords</li>
                                 <li>Integración con Google Analytics</li>
-                                <li>Programación web CSS, AJAX, JQUERY, MYSQL, ASP.NET, HTML5</li>
+                                <li>Programación web CSS, AJAX, JQUERY, T-SQL, ASP.NET, HTML5</li>
                                 <li>Mantenimiento de páginas web</li>
                                 <li>Buscadores Internos</li>
                             </ul>

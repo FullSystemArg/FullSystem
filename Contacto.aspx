@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Contacto.aspx.vb" Inherits="Contacto" %>
+﻿<%@ Page Title="" Language="VB" MetaDescription="contacto que nosotros para recibir informacion sobre nuestros servicios de software" MetaKeywords="contacto fullsystem,full system,infofullsystem,info cursos full system, FullSystemNet" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Contacto.aspx.vb" Inherits="Contacto" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
     <script src="js/bootstrap.min.js"></script>
@@ -25,9 +25,9 @@
                 <div><asp:LinkButton ID="btn_InfoCursos" runat="server" data-toggle="modal" data-target="#myModal" CssClass="btn btn-info"><i class="icon-envelope"></i> Consultas Cursos</asp:LinkButton></div>
             </td>
             <td style="width:80px; vertical-align:bottom">
-                <asp:ImageButton ID="img_Facebook" ImageUrl="~/img/facebook-sm.jpg" runat="server" />
-                <asp:ImageButton ID="img_Twitter" ImageUrl="~/img/twitter.gif" runat="server" />
-                <asp:ImageButton ID="img_Linkedin" ImageUrl="~/img/linkedin-logo.png" runat="server" />
+                <a target="_blank" href="https://www.facebook.com/FullSystemnet"><img src="img/facebook-sm.jpg" /></a>
+                <a target="_blank" href="https://twitter.com/SRL_Full"><img src="img/twitter.gif" /></a>
+                <a target="_blank" href="http://www.linkedin.com/company/full-system"><img src="img/linkedin-logo.png" /></a>
             </td>
         </tr>
     </table>
