@@ -33,7 +33,7 @@
                     <asp:Panel ID="Panel13" runat="server" Visible="true"> 
                         <tr>
                             <td style="vertical-align:middle;text-align:center;width:120px"><asp:Image ID="image13" runat="server" ImageUrl="~/img/Servicios/14.jpg" /></td>
-                            <td style="vertical-align:middle;text-align:center">La primera etapa de todo análisis de sistemas es el relevamiento, en Full System le damos gran significación esta etapa ya que es aquí donde se determina la situación existente del sistema. Tenemos una estructura diseñada para agilizar este proceso que contempla la entrevista y observación personal, la concreción de las reuniones de trabajo que sean necesarias y por ultimo la redacción de informes y graficación, especificando los pros y los contras de la situación actual del sistema, ofreciendo recomendaciones para mejorarlo.</td>
+                            <td style="vertical-align:middle;text-align:center">La primera etapa de todo análisis de sistemas es el relevamiento, en Full System le damos gran significación a esta etapa ya que es aquí donde se determina la situación existente del sistema. Tenemos una estructura diseñada para agilizar este proceso que contempla la entrevista y observación personal, la concreción de las reuniones de trabajo que sean necesarias y por ultimo la redacción de informes y graficación, especificando los pros y los contras de la situación actual del sistema, ofreciendo recomendaciones para mejorarlo.</td>
                         </tr>
                     </asp:Panel>
                     <asp:Panel ID="Panel14" runat="server" Visible="false"> 

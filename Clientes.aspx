@@ -18,7 +18,7 @@
         <tr>
             <td style="text-align:center"><a target="_blank" href="http://www.ecyssa.com/"><img src="img/Clientes/ecyssa.png" /></a></td>
             <td style="text-align:center"><a target="_blank" href=""><img src="img/Clientes/docthos.jpg" /></a></td>
-            <td style="text-align:center"><a target="_blank" href="http://www.hsbc.com.ar/ar/afjp/"><img src="img/Clientes/maxima.jpg" /></a></td>
+            <td style="text-align:center"><a target="_blank" href="http://www.accordsalud.com.ar/"><img src="img/Clientes/pagina37.jpg" /></a></td>
             <td style="text-align:center"><a target="_blank" href="http://www.hsbc.com.ar/es/"><img src="img/Clientes/HSBC Logo (alta).JPG" /></a></td>
         </tr>
         <tr>
@@ -26,6 +26,15 @@
             <td style="text-align:center"><a target="_blank" href="http://www.gire.com/"><img src="img/Clientes/Gire.jpg" /></a></td>
             <td style="text-align:center"><a target="_blank" href="http://www.uar.com.ar/"><img src="img/Clientes/uar.jpg" /></a></td>
             <td style="text-align:center"><a target="_blank" href="http://www.qbe.com.ar/ar/home.asp"><img src="img/Clientes/qbe.png" /></a></td>
+        </tr>
+    </table>
+    Clientes AFJP con los que hemos trabajado
+    <table class="table">
+        <tr>
+            <td style="text-align:center"><img src="img/Clientes/Futura.jpg" /></td>
+            <td style="text-align:center"><img src="img/Clientes/Consolidar.jpg" /></td>
+            <td style="text-align:center"><img src="img/Clientes/maxima.jpg" /></td>
+            <td style="text-align:center"><img src="img/Clientes/met.jpg" /></td>
         </tr>
     </table>
     <hr />

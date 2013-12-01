@@ -9,7 +9,7 @@
     <meta name="keywords" content="fullsystem,full system,cursos vb.net desde cero,full system argentina, empleo en vb.net, FullSystemNet" />
     <meta name="author" content="FullSystem" />
     <meta charset="UTF-8" />
-    <link href="http://fullsystemnet.serveftp.com/img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link href="~/img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
     <link href="css/generic.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/panels-bootstrap-layouts-admin.css" rel="stylesheet" type="text/css" />
@@ -39,9 +39,8 @@
                         <br />
                         Telefono: <b>+54 11 1551459958</b>
                         <div>
-                            <asp:HyperLink ID="hl_Español" ForeColor="Gray" NavigateUrl="~/Default.aspx" Font-Size="Small" runat="server">Español</asp:HyperLink>
-                            /
-                            <asp:HyperLink ID="hl_English" ForeColor="Gray" NavigateUrl="~/Default.aspx" Font-Size="Small" runat="server">English</asp:HyperLink>                
+                            <a href="Default.aspx"><img src='<%= IIf(InStr(LCase(Request.Url.ToString), "/es/") > 0, "../img/Soluciones/Flag_of_Argentina.png", "img/Soluciones/Flag_of_Argentina.png") %>' /></a>
+                            <a href="Default.aspx"><img src='<%= IIf(InStr(LCase(Request.Url.ToString), "/es/") > 0, "../img/Soluciones/flag-usa.gif", "img/Soluciones/flag-usa.gif") %>' /></a>
                         </div>
                     </div>
                     </td>
